@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'MacSoundBarTests' target in the 'MacSoundBarTests' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif

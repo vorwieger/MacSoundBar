@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dictionary SYSTEM "file://localhost/System/Library/DTDs/sdef.dtd">
+
+<dictionary title="MacSoundBar">
+    <suite name="MacSoundBar Suite" code="MSBS" description="MacSoundBar Scripts">
+        <command name="play" code="MSBSPLAY" description="Plays a sound">
+            <cocoa class="ScriptCommandPlay"/>
+            <direct-parameter description="The sound to play">
+                <type type="text"/>
+            </direct-parameter>
+        </command>
+        <command name="listall" code="MSBSLIST" description="Lists all sounds">
+            <cocoa class="ScriptCommandList"/>
+            <direct-parameter description="Lists all sounds">
+                <type type="text"/>
+            </direct-parameter>
+            <result description="List of all sounds" type="text"/>
+        </command>
+    </suite>
+</dictionary>

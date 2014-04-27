@@ -1,0 +1,844 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D010FF4E13ED8D9D00F605E0 /* ManagedObjectManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D04903BC13ED773800A227E8 /* ManagedObjectManager.m */; };
+		D010FF5013ED8DA200F605E0 /* Sound.m in Sources */ = {isa = PBXBuildFile; fileRef = D028F306138859A700AAB3B4 /* Sound.m */; };
+		D010FF5113ED8DEE00F605E0 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0B96972137872AF00AB70AF /* Cocoa.framework */; };
+		D010FF5213ED8E0600F605E0 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0B96976137872AF00AB70AF /* CoreData.framework */; };
+		D010FF5913ED8EE100F605E0 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0DBEF5513893110007DD172 /* Carbon.framework */; };
+		D010FF5D13ED91BC00F605E0 /* MacSoundBarHelper in CopyFiles */ = {isa = PBXBuildFile; fileRef = D04903A313ED756400A227E8 /* MacSoundBarHelper */; };
+		D010FF6313EDAFB700F605E0 /* DDHotKeyCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = D0DBEF52138930CB007DD172 /* DDHotKeyCenter.m */; };
+		D028F2E61388149700AAB3B4 /* StatusItemDropView.m in Sources */ = {isa = PBXBuildFile; fileRef = D028F2E51388149700AAB3B4 /* StatusItemDropView.m */; };
+		D028F2EA1388162F00AAB3B4 /* NSStatusItem+StatusItemDropView.m in Sources */ = {isa = PBXBuildFile; fileRef = D028F2E91388162F00AAB3B4 /* NSStatusItem+StatusItemDropView.m */; };
+		D028F307138859A700AAB3B4 /* Sound.m in Sources */ = {isa = PBXBuildFile; fileRef = D028F306138859A700AAB3B4 /* Sound.m */; };
+		D028F30A138859D400AAB3B4 /* SoundManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D028F309138859D400AAB3B4 /* SoundManager.m */; };
+		D029EAEE137D95C7003DBCAE /* SoundItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = D029EAED137D95C7003DBCAE /* SoundItemView.m */; };
+		D0434713190AFEDC0021A472 /* ScriptCommandList.m in Sources */ = {isa = PBXBuildFile; fileRef = D0434712190AFEDC0021A472 /* ScriptCommandList.m */; };
+		D04903AB13ED756400A227E8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D04903AA13ED756400A227E8 /* main.m */; };
+		D04903B713ED759900A227E8 /* MacSoundBar.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D0B9698A137872AF00AB70AF /* MacSoundBar.xcdatamodeld */; };
+		D04903BA13ED75CD00A227E8 /* SoundManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D028F309138859D400AAB3B4 /* SoundManager.m */; };
+		D04903BD13ED773800A227E8 /* ManagedObjectManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D04903BC13ED773800A227E8 /* ManagedObjectManager.m */; };
+		D04903BE13ED773800A227E8 /* ManagedObjectManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D04903BC13ED773800A227E8 /* ManagedObjectManager.m */; };
+		D055985F157D36F800AF15C7 /* MacSoundBar.sdef in Resources */ = {isa = PBXBuildFile; fileRef = D055985E157D36F800AF15C7 /* MacSoundBar.sdef */; };
+		D0559863157D392100AF15C7 /* ScriptCommandPlay.m in Sources */ = {isa = PBXBuildFile; fileRef = D0559862157D392100AF15C7 /* ScriptCommandPlay.m */; };
+		D089598013B274510019C700 /* ManagedObjectSenTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = D089597E13B2732C0019C700 /* ManagedObjectSenTestCase.m */; };
+		D08EF9C313EE08A500E55FFC /* MacSoundBarHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D08EF9C213EE08A500E55FFC /* MacSoundBarHelper.m */; };
+		D0A62F4513BE5A8900C25CF8 /* SimpleItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = D0A62F4413BE5A8900C25CF8 /* SimpleItemView.m */; };
+		D0AC694213BD0E7100D61CF5 /* Icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = D0AC694113BD0E7100D61CF5 /* Icon.icns */; };
+		D0B23C1E139C0B3800FD2BBD /* SoundManagerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = D0B23C1D139C0B3800FD2BBD /* SoundManagerTest.m */; };
+		D0B2CC9913B7353D00765002 /* HoverButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D0B2CC9813B7353D00765002 /* HoverButton.m */; };
+		D0B96973137872AF00AB70AF /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0B96972137872AF00AB70AF /* Cocoa.framework */; };
+		D0B9697D137872AF00AB70AF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D0B9697B137872AF00AB70AF /* InfoPlist.strings */; };
+		D0B96980137872AF00AB70AF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D0B9697F137872AF00AB70AF /* main.m */; };
+		D0B96983137872AF00AB70AF /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = D0B96981137872AF00AB70AF /* Credits.rtf */; };
+		D0B96986137872AF00AB70AF /* MacSoundBarAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D0B96985137872AF00AB70AF /* MacSoundBarAppDelegate.m */; };
+		D0B96989137872AF00AB70AF /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0B96987137872AF00AB70AF /* MainMenu.xib */; };
+		D0B9698C137872AF00AB70AF /* MacSoundBar.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D0B9698A137872AF00AB70AF /* MacSoundBar.xcdatamodeld */; };
+		D0B96993137872AF00AB70AF /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0B96972137872AF00AB70AF /* Cocoa.framework */; };
+		D0B9699B137872AF00AB70AF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D0B96999137872AF00AB70AF /* InfoPlist.strings */; };
+		D0DBEF53138930CB007DD172 /* DDHotKeyCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = D0DBEF52138930CB007DD172 /* DDHotKeyCenter.m */; };
+		D0DBEF5613893110007DD172 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0DBEF5513893110007DD172 /* Carbon.framework */; };
+		D0E272E413F1CEEF00610860 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0E272E113F1CEC700610860 /* QuartzCore.framework */; };
+		D0E9D06D13FC5B03009DD665 /* MacSoundBarIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = D0E9D06C13FC5B03009DD665 /* MacSoundBarIcon.png */; };
+		D0E9D07113FC5B97009DD665 /* cross1.png in Resources */ = {isa = PBXBuildFile; fileRef = D0E9D06E13FC5B97009DD665 /* cross1.png */; };
+		D0E9D07213FC5B97009DD665 /* cross2.png in Resources */ = {isa = PBXBuildFile; fileRef = D0E9D06F13FC5B97009DD665 /* cross2.png */; };
+		D0E9D07313FC5B97009DD665 /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = D0E9D07013FC5B97009DD665 /* star.png */; };
+		D0E9D07713FC6690009DD665 /* MacSoundBarIcon_invert.png in Resources */ = {isa = PBXBuildFile; fileRef = D0E9D07613FC6690009DD665 /* MacSoundBarIcon_invert.png */; };
+		D0F1DBC413FACA8B00450F40 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = D0F1DBB613FACA8B00450F40 /* LICENSE */; };
+		D0F1DBC513FACA8B00450F40 /* ioapi.c in Sources */ = {isa = PBXBuildFile; fileRef = D0F1DBB913FACA8B00450F40 /* ioapi.c */; };
+		D0F1DBC613FACA8B00450F40 /* mztools.c in Sources */ = {isa = PBXBuildFile; fileRef = D0F1DBBB13FACA8B00450F40 /* mztools.c */; };
+		D0F1DBC713FACA8B00450F40 /* unzip.c in Sources */ = {isa = PBXBuildFile; fileRef = D0F1DBBD13FACA8B00450F40 /* unzip.c */; };
+		D0F1DBC813FACA8B00450F40 /* zip.c in Sources */ = {isa = PBXBuildFile; fileRef = D0F1DBBF13FACA8B00450F40 /* zip.c */; };
+		D0F1DBC913FACA8B00450F40 /* Readme.markdown in Resources */ = {isa = PBXBuildFile; fileRef = D0F1DBC113FACA8B00450F40 /* Readme.markdown */; };
+		D0F1DBCA13FACA8B00450F40 /* SSZipArchive.m in Sources */ = {isa = PBXBuildFile; fileRef = D0F1DBC313FACA8B00450F40 /* SSZipArchive.m */; };
+		D0F1DBCC13FACC0900450F40 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D0F1DBCB13FACC0900450F40 /* libz.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D010FF5A13ED8F0400F605E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0B96965137872AF00AB70AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D04903A213ED756400A227E8;
+			remoteInfo = MacSoundBarHelper;
+		};
+		D0B96994137872AF00AB70AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0B96965137872AF00AB70AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0B9696D137872AF00AB70AF;
+			remoteInfo = MacSoundBar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D010FF5C13ED91A500F605E0 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+				D010FF5D13ED91BC00F605E0 /* MacSoundBarHelper in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D04903A113ED756400A227E8 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D028F2E41388149700AAB3B4 /* StatusItemDropView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = StatusItemDropView.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		D028F2E51388149700AAB3B4 /* StatusItemDropView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatusItemDropView.m; sourceTree = "<group>"; };
+		D028F2E81388162F00AAB3B4 /* NSStatusItem+StatusItemDropView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSStatusItem+StatusItemDropView.h"; sourceTree = "<group>"; };
+		D028F2E91388162F00AAB3B4 /* NSStatusItem+StatusItemDropView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSStatusItem+StatusItemDropView.m"; sourceTree = "<group>"; };
+		D028F305138859A700AAB3B4 /* Sound.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = Sound.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		D028F306138859A700AAB3B4 /* Sound.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sound.m; sourceTree = "<group>"; };
+		D028F308138859D400AAB3B4 /* SoundManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = SoundManager.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		D028F309138859D400AAB3B4 /* SoundManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoundManager.m; sourceTree = "<group>"; };
+		D029EAEC137D95C7003DBCAE /* SoundItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = SoundItemView.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		D029EAED137D95C7003DBCAE /* SoundItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoundItemView.m; sourceTree = "<group>"; };
+		D0434711190AFEDC0021A472 /* ScriptCommandList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScriptCommandList.h; sourceTree = "<group>"; };
+		D0434712190AFEDC0021A472 /* ScriptCommandList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScriptCommandList.m; sourceTree = "<group>"; };
+		D04903A313ED756400A227E8 /* MacSoundBarHelper */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MacSoundBarHelper; sourceTree = BUILT_PRODUCTS_DIR; };
+		D04903A713ED756400A227E8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D04903AA13ED756400A227E8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D04903AD13ED756400A227E8 /* MacSoundBarHelper-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MacSoundBarHelper-Prefix.pch"; sourceTree = "<group>"; };
+		D04903BB13ED773800A227E8 /* ManagedObjectManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ManagedObjectManager.h; sourceTree = "<group>"; };
+		D04903BC13ED773800A227E8 /* ManagedObjectManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ManagedObjectManager.m; sourceTree = "<group>"; };
+		D055985E157D36F800AF15C7 /* MacSoundBar.sdef */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = MacSoundBar.sdef; sourceTree = "<group>"; };
+		D0559861157D392100AF15C7 /* ScriptCommandPlay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScriptCommandPlay.h; sourceTree = "<group>"; };
+		D0559862157D392100AF15C7 /* ScriptCommandPlay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScriptCommandPlay.m; sourceTree = "<group>"; };
+		D089597D13B2732C0019C700 /* ManagedObjectSenTestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ManagedObjectSenTestCase.h; sourceTree = "<group>"; };
+		D089597E13B2732C0019C700 /* ManagedObjectSenTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = ManagedObjectSenTestCase.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		D08EF9C113EE08A500E55FFC /* MacSoundBarHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MacSoundBarHelper.h; sourceTree = "<group>"; };
+		D08EF9C213EE08A500E55FFC /* MacSoundBarHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MacSoundBarHelper.m; sourceTree = "<group>"; };
+		D0A62F4313BE5A8900C25CF8 /* SimpleItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleItemView.h; sourceTree = "<group>"; };
+		D0A62F4413BE5A8900C25CF8 /* SimpleItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleItemView.m; sourceTree = "<group>"; };
+		D0AC694113BD0E7100D61CF5 /* Icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Icon.icns; sourceTree = "<group>"; };
+		D0B23C1C139C0B3800FD2BBD /* SoundManagerTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoundManagerTest.h; sourceTree = "<group>"; };
+		D0B23C1D139C0B3800FD2BBD /* SoundManagerTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoundManagerTest.m; sourceTree = "<group>"; };
+		D0B2CC9713B7353D00765002 /* HoverButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = HoverButton.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		D0B2CC9813B7353D00765002 /* HoverButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HoverButton.m; sourceTree = "<group>"; };
+		D0B9696E137872AF00AB70AF /* MacSoundBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacSoundBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0B96972137872AF00AB70AF /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		D0B96975137872AF00AB70AF /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		D0B96976137872AF00AB70AF /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		D0B96977137872AF00AB70AF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D0B9697A137872AF00AB70AF /* MacSoundBar-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MacSoundBar-Info.plist"; sourceTree = "<group>"; };
+		D0B9697C137872AF00AB70AF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D0B9697E137872AF00AB70AF /* MacSoundBar-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MacSoundBar-Prefix.pch"; sourceTree = "<group>"; };
+		D0B9697F137872AF00AB70AF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D0B96982137872AF00AB70AF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		D0B96984137872AF00AB70AF /* MacSoundBarAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MacSoundBarAppDelegate.h; sourceTree = "<group>"; };
+		D0B96985137872AF00AB70AF /* MacSoundBarAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MacSoundBarAppDelegate.m; sourceTree = "<group>"; };
+		D0B96988137872AF00AB70AF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		D0B9698B137872AF00AB70AF /* MacSoundBar.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MacSoundBar.xcdatamodel; sourceTree = "<group>"; };
+		D0B96992137872AF00AB70AF /* MacSoundBarTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MacSoundBarTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0B96998137872AF00AB70AF /* MacSoundBarTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MacSoundBarTests-Info.plist"; sourceTree = "<group>"; };
+		D0B9699A137872AF00AB70AF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D0B9699C137872AF00AB70AF /* MacSoundBarTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MacSoundBarTests-Prefix.pch"; sourceTree = "<group>"; };
+		D0DBEF51138930CB007DD172 /* DDHotKeyCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDHotKeyCenter.h; sourceTree = "<group>"; };
+		D0DBEF52138930CB007DD172 /* DDHotKeyCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDHotKeyCenter.m; sourceTree = "<group>"; };
+		D0DBEF5513893110007DD172 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = System/Library/Frameworks/Carbon.framework; sourceTree = SDKROOT; };
+		D0E272E113F1CEC700610860 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		D0E9D06C13FC5B03009DD665 /* MacSoundBarIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = MacSoundBarIcon.png; path = images/MacSoundBarIcon.png; sourceTree = SOURCE_ROOT; };
+		D0E9D06E13FC5B97009DD665 /* cross1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cross1.png; path = images/cross1.png; sourceTree = SOURCE_ROOT; };
+		D0E9D06F13FC5B97009DD665 /* cross2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cross2.png; path = images/cross2.png; sourceTree = SOURCE_ROOT; };
+		D0E9D07013FC5B97009DD665 /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = star.png; path = images/star.png; sourceTree = SOURCE_ROOT; };
+		D0E9D07613FC6690009DD665 /* MacSoundBarIcon_invert.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = MacSoundBarIcon_invert.png; path = images/MacSoundBarIcon_invert.png; sourceTree = SOURCE_ROOT; };
+		D0F1DBB613FACA8B00450F40 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		D0F1DBB813FACA8B00450F40 /* crypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypt.h; sourceTree = "<group>"; };
+		D0F1DBB913FACA8B00450F40 /* ioapi.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ioapi.c; sourceTree = "<group>"; };
+		D0F1DBBA13FACA8B00450F40 /* ioapi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ioapi.h; sourceTree = "<group>"; };
+		D0F1DBBB13FACA8B00450F40 /* mztools.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mztools.c; sourceTree = "<group>"; };
+		D0F1DBBC13FACA8B00450F40 /* mztools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mztools.h; sourceTree = "<group>"; };
+		D0F1DBBD13FACA8B00450F40 /* unzip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = unzip.c; sourceTree = "<group>"; };
+		D0F1DBBE13FACA8B00450F40 /* unzip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unzip.h; sourceTree = "<group>"; };
+		D0F1DBBF13FACA8B00450F40 /* zip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zip.c; sourceTree = "<group>"; };
+		D0F1DBC013FACA8B00450F40 /* zip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zip.h; sourceTree = "<group>"; };
+		D0F1DBC113FACA8B00450F40 /* Readme.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Readme.markdown; sourceTree = "<group>"; };
+		D0F1DBC213FACA8B00450F40 /* SSZipArchive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSZipArchive.h; sourceTree = "<group>"; };
+		D0F1DBC313FACA8B00450F40 /* SSZipArchive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSZipArchive.m; sourceTree = "<group>"; };
+		D0F1DBCB13FACC0900450F40 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D04903A013ED756400A227E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D010FF5913ED8EE100F605E0 /* Carbon.framework in Frameworks */,
+				D010FF5213ED8E0600F605E0 /* CoreData.framework in Frameworks */,
+				D010FF5113ED8DEE00F605E0 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0B9696B137872AF00AB70AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0F1DBCC13FACC0900450F40 /* libz.dylib in Frameworks */,
+				D0DBEF5613893110007DD172 /* Carbon.framework in Frameworks */,
+				D0B96973137872AF00AB70AF /* Cocoa.framework in Frameworks */,
+				D0E272E413F1CEEF00610860 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0B9698E137872AF00AB70AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0B96993137872AF00AB70AF /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D04903A913ED756400A227E8 /* MacSoundBarHelper */ = {
+			isa = PBXGroup;
+			children = (
+				D08EF9C113EE08A500E55FFC /* MacSoundBarHelper.h */,
+				D08EF9C213EE08A500E55FFC /* MacSoundBarHelper.m */,
+				D04903AA13ED756400A227E8 /* main.m */,
+				D04903AC13ED756400A227E8 /* Supporting Files */,
+			);
+			path = MacSoundBarHelper;
+			sourceTree = "<group>";
+		};
+		D04903AC13ED756400A227E8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D04903AD13ED756400A227E8 /* MacSoundBarHelper-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D0B96963137872AF00AB70AF = {
+			isa = PBXGroup;
+			children = (
+				D0AC694113BD0E7100D61CF5 /* Icon.icns */,
+				D0B96978137872AF00AB70AF /* MacSoundBar */,
+				D0B96996137872AF00AB70AF /* MacSoundBarTests */,
+				D04903A913ED756400A227E8 /* MacSoundBarHelper */,
+				D0F1DBB513FACA8B00450F40 /* minizip */,
+				D0B96971137872AF00AB70AF /* Frameworks */,
+				D0B9696F137872AF00AB70AF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D0B9696F137872AF00AB70AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0B9696E137872AF00AB70AF /* MacSoundBar.app */,
+				D0B96992137872AF00AB70AF /* MacSoundBarTests.octest */,
+				D04903A313ED756400A227E8 /* MacSoundBarHelper */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0B96971137872AF00AB70AF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D0F1DBCB13FACC0900450F40 /* libz.dylib */,
+				D0E272E113F1CEC700610860 /* QuartzCore.framework */,
+				D0B96972137872AF00AB70AF /* Cocoa.framework */,
+				D0DBEF5513893110007DD172 /* Carbon.framework */,
+				D04903A713ED756400A227E8 /* Foundation.framework */,
+				D0B96974137872AF00AB70AF /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D0B96974137872AF00AB70AF /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D0B96975137872AF00AB70AF /* AppKit.framework */,
+				D0B96976137872AF00AB70AF /* CoreData.framework */,
+				D0B96977137872AF00AB70AF /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		D0B96978137872AF00AB70AF /* MacSoundBar */ = {
+			isa = PBXGroup;
+			children = (
+				D0434711190AFEDC0021A472 /* ScriptCommandList.h */,
+				D0434712190AFEDC0021A472 /* ScriptCommandList.m */,
+				D0559861157D392100AF15C7 /* ScriptCommandPlay.h */,
+				D0559862157D392100AF15C7 /* ScriptCommandPlay.m */,
+				D04903BB13ED773800A227E8 /* ManagedObjectManager.h */,
+				D04903BC13ED773800A227E8 /* ManagedObjectManager.m */,
+				D0B2CC9713B7353D00765002 /* HoverButton.h */,
+				D0B2CC9813B7353D00765002 /* HoverButton.m */,
+				D0B96984137872AF00AB70AF /* MacSoundBarAppDelegate.h */,
+				D0B96985137872AF00AB70AF /* MacSoundBarAppDelegate.m */,
+				D028F2E81388162F00AAB3B4 /* NSStatusItem+StatusItemDropView.h */,
+				D028F2E91388162F00AAB3B4 /* NSStatusItem+StatusItemDropView.m */,
+				D028F2E41388149700AAB3B4 /* StatusItemDropView.h */,
+				D028F2E51388149700AAB3B4 /* StatusItemDropView.m */,
+				D0A62F4313BE5A8900C25CF8 /* SimpleItemView.h */,
+				D0A62F4413BE5A8900C25CF8 /* SimpleItemView.m */,
+				D029EAEC137D95C7003DBCAE /* SoundItemView.h */,
+				D029EAED137D95C7003DBCAE /* SoundItemView.m */,
+				D0B96987137872AF00AB70AF /* MainMenu.xib */,
+				D0B9698A137872AF00AB70AF /* MacSoundBar.xcdatamodeld */,
+				D028F305138859A700AAB3B4 /* Sound.h */,
+				D028F306138859A700AAB3B4 /* Sound.m */,
+				D028F308138859D400AAB3B4 /* SoundManager.h */,
+				D028F309138859D400AAB3B4 /* SoundManager.m */,
+				D0DBEF51138930CB007DD172 /* DDHotKeyCenter.h */,
+				D0DBEF52138930CB007DD172 /* DDHotKeyCenter.m */,
+				D0B96979137872AF00AB70AF /* Supporting Files */,
+			);
+			path = MacSoundBar;
+			sourceTree = "<group>";
+		};
+		D0B96979137872AF00AB70AF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D0E9D06C13FC5B03009DD665 /* MacSoundBarIcon.png */,
+				D0E9D07613FC6690009DD665 /* MacSoundBarIcon_invert.png */,
+				D0E9D06E13FC5B97009DD665 /* cross1.png */,
+				D0E9D06F13FC5B97009DD665 /* cross2.png */,
+				D0E9D07013FC5B97009DD665 /* star.png */,
+				D0B9697A137872AF00AB70AF /* MacSoundBar-Info.plist */,
+				D0B9697B137872AF00AB70AF /* InfoPlist.strings */,
+				D0B9697E137872AF00AB70AF /* MacSoundBar-Prefix.pch */,
+				D0B9697F137872AF00AB70AF /* main.m */,
+				D0B96981137872AF00AB70AF /* Credits.rtf */,
+				D055985E157D36F800AF15C7 /* MacSoundBar.sdef */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D0B96996137872AF00AB70AF /* MacSoundBarTests */ = {
+			isa = PBXGroup;
+			children = (
+				D089597D13B2732C0019C700 /* ManagedObjectSenTestCase.h */,
+				D089597E13B2732C0019C700 /* ManagedObjectSenTestCase.m */,
+				D0B23C1C139C0B3800FD2BBD /* SoundManagerTest.h */,
+				D0B23C1D139C0B3800FD2BBD /* SoundManagerTest.m */,
+				D0B96997137872AF00AB70AF /* Supporting Files */,
+			);
+			path = MacSoundBarTests;
+			sourceTree = "<group>";
+		};
+		D0B96997137872AF00AB70AF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D0B96998137872AF00AB70AF /* MacSoundBarTests-Info.plist */,
+				D0B96999137872AF00AB70AF /* InfoPlist.strings */,
+				D0B9699C137872AF00AB70AF /* MacSoundBarTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D0F1DBB513FACA8B00450F40 /* minizip */ = {
+			isa = PBXGroup;
+			children = (
+				D0F1DBC113FACA8B00450F40 /* Readme.markdown */,
+				D0F1DBB613FACA8B00450F40 /* LICENSE */,
+				D0F1DBC213FACA8B00450F40 /* SSZipArchive.h */,
+				D0F1DBC313FACA8B00450F40 /* SSZipArchive.m */,
+				D0F1DBB713FACA8B00450F40 /* minizip */,
+			);
+			path = minizip;
+			sourceTree = "<group>";
+		};
+		D0F1DBB713FACA8B00450F40 /* minizip */ = {
+			isa = PBXGroup;
+			children = (
+				D0F1DBB813FACA8B00450F40 /* crypt.h */,
+				D0F1DBB913FACA8B00450F40 /* ioapi.c */,
+				D0F1DBBA13FACA8B00450F40 /* ioapi.h */,
+				D0F1DBBB13FACA8B00450F40 /* mztools.c */,
+				D0F1DBBC13FACA8B00450F40 /* mztools.h */,
+				D0F1DBBD13FACA8B00450F40 /* unzip.c */,
+				D0F1DBBE13FACA8B00450F40 /* unzip.h */,
+				D0F1DBBF13FACA8B00450F40 /* zip.c */,
+				D0F1DBC013FACA8B00450F40 /* zip.h */,
+			);
+			path = minizip;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D04903A213ED756400A227E8 /* MacSoundBarHelper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D04903B513ED756400A227E8 /* Build configuration list for PBXNativeTarget "MacSoundBarHelper" */;
+			buildPhases = (
+				D049039F13ED756400A227E8 /* Sources */,
+				D04903A013ED756400A227E8 /* Frameworks */,
+				D04903A113ED756400A227E8 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MacSoundBarHelper;
+			productName = MacSoundBarHelper;
+			productReference = D04903A313ED756400A227E8 /* MacSoundBarHelper */;
+			productType = "com.apple.product-type.tool";
+		};
+		D0B9696D137872AF00AB70AF /* MacSoundBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0B969A3137872AF00AB70AF /* Build configuration list for PBXNativeTarget "MacSoundBar" */;
+			buildPhases = (
+				D0B9696A137872AF00AB70AF /* Sources */,
+				D0B9696B137872AF00AB70AF /* Frameworks */,
+				D0B9696C137872AF00AB70AF /* Resources */,
+				D010FF5C13ED91A500F605E0 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D010FF5B13ED8F0400F605E0 /* PBXTargetDependency */,
+			);
+			name = MacSoundBar;
+			productName = MacSoundBar;
+			productReference = D0B9696E137872AF00AB70AF /* MacSoundBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D0B96991137872AF00AB70AF /* MacSoundBarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0B969A6137872AF00AB70AF /* Build configuration list for PBXNativeTarget "MacSoundBarTests" */;
+			buildPhases = (
+				D0B9698D137872AF00AB70AF /* Sources */,
+				D0B9698E137872AF00AB70AF /* Frameworks */,
+				D0B9698F137872AF00AB70AF /* Resources */,
+				D0B96990137872AF00AB70AF /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0B96995137872AF00AB70AF /* PBXTargetDependency */,
+			);
+			name = MacSoundBarTests;
+			productName = MacSoundBarTests;
+			productReference = D0B96992137872AF00AB70AF /* MacSoundBarTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D0B96965137872AF00AB70AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = D0B96968137872AF00AB70AF /* Build configuration list for PBXProject "MacSoundBar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D0B96963137872AF00AB70AF;
+			productRefGroup = D0B9696F137872AF00AB70AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D0B9696D137872AF00AB70AF /* MacSoundBar */,
+				D0B96991137872AF00AB70AF /* MacSoundBarTests */,
+				D04903A213ED756400A227E8 /* MacSoundBarHelper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D0B9696C137872AF00AB70AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0B9697D137872AF00AB70AF /* InfoPlist.strings in Resources */,
+				D0B96983137872AF00AB70AF /* Credits.rtf in Resources */,
+				D0B96989137872AF00AB70AF /* MainMenu.xib in Resources */,
+				D0AC694213BD0E7100D61CF5 /* Icon.icns in Resources */,
+				D0F1DBC413FACA8B00450F40 /* LICENSE in Resources */,
+				D0F1DBC913FACA8B00450F40 /* Readme.markdown in Resources */,
+				D0E9D06D13FC5B03009DD665 /* MacSoundBarIcon.png in Resources */,
+				D0E9D07113FC5B97009DD665 /* cross1.png in Resources */,
+				D0E9D07213FC5B97009DD665 /* cross2.png in Resources */,
+				D0E9D07313FC5B97009DD665 /* star.png in Resources */,
+				D0E9D07713FC6690009DD665 /* MacSoundBarIcon_invert.png in Resources */,
+				D055985F157D36F800AF15C7 /* MacSoundBar.sdef in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0B9698F137872AF00AB70AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0B9699B137872AF00AB70AF /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D0B96990137872AF00AB70AF /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D049039F13ED756400A227E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D04903AB13ED756400A227E8 /* main.m in Sources */,
+				D010FF6313EDAFB700F605E0 /* DDHotKeyCenter.m in Sources */,
+				D010FF5013ED8DA200F605E0 /* Sound.m in Sources */,
+				D010FF4E13ED8D9D00F605E0 /* ManagedObjectManager.m in Sources */,
+				D04903BA13ED75CD00A227E8 /* SoundManager.m in Sources */,
+				D04903B713ED759900A227E8 /* MacSoundBar.xcdatamodeld in Sources */,
+				D08EF9C313EE08A500E55FFC /* MacSoundBarHelper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0B9696A137872AF00AB70AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0B96980137872AF00AB70AF /* main.m in Sources */,
+				D0B96986137872AF00AB70AF /* MacSoundBarAppDelegate.m in Sources */,
+				D0B9698C137872AF00AB70AF /* MacSoundBar.xcdatamodeld in Sources */,
+				D0434713190AFEDC0021A472 /* ScriptCommandList.m in Sources */,
+				D029EAEE137D95C7003DBCAE /* SoundItemView.m in Sources */,
+				D028F2E61388149700AAB3B4 /* StatusItemDropView.m in Sources */,
+				D028F2EA1388162F00AAB3B4 /* NSStatusItem+StatusItemDropView.m in Sources */,
+				D028F307138859A700AAB3B4 /* Sound.m in Sources */,
+				D028F30A138859D400AAB3B4 /* SoundManager.m in Sources */,
+				D0DBEF53138930CB007DD172 /* DDHotKeyCenter.m in Sources */,
+				D0B2CC9913B7353D00765002 /* HoverButton.m in Sources */,
+				D0A62F4513BE5A8900C25CF8 /* SimpleItemView.m in Sources */,
+				D04903BD13ED773800A227E8 /* ManagedObjectManager.m in Sources */,
+				D0F1DBC513FACA8B00450F40 /* ioapi.c in Sources */,
+				D0F1DBC613FACA8B00450F40 /* mztools.c in Sources */,
+				D0F1DBC713FACA8B00450F40 /* unzip.c in Sources */,
+				D0F1DBC813FACA8B00450F40 /* zip.c in Sources */,
+				D0F1DBCA13FACA8B00450F40 /* SSZipArchive.m in Sources */,
+				D0559863157D392100AF15C7 /* ScriptCommandPlay.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0B9698D137872AF00AB70AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D089598013B274510019C700 /* ManagedObjectSenTestCase.m in Sources */,
+				D0B23C1E139C0B3800FD2BBD /* SoundManagerTest.m in Sources */,
+				D04903BE13ED773800A227E8 /* ManagedObjectManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D010FF5B13ED8F0400F605E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D04903A213ED756400A227E8 /* MacSoundBarHelper */;
+			targetProxy = D010FF5A13ED8F0400F605E0 /* PBXContainerItemProxy */;
+		};
+		D0B96995137872AF00AB70AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D0B9696D137872AF00AB70AF /* MacSoundBar */;
+			targetProxy = D0B96994137872AF00AB70AF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D0B9697B137872AF00AB70AF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0B9697C137872AF00AB70AF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D0B96981137872AF00AB70AF /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0B96982137872AF00AB70AF /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		D0B96987137872AF00AB70AF /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0B96988137872AF00AB70AF /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		D0B96999137872AF00AB70AF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0B9699A137872AF00AB70AF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D04903B313ED756400A227E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_OBJC_GC = unsupported;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MacSoundBarHelper/MacSoundBarHelper-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D04903B413ED756400A227E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_OBJC_GC = unsupported;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MacSoundBarHelper/MacSoundBarHelper-Prefix.pch";
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D0B969A1137872AF00AB70AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJCPP_ARC_ABI = NO;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D0B969A2137872AF00AB70AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJCPP_ARC_ABI = NO;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D0B969A4137872AF00AB70AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ARC_MIGRATION = precheck;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MacSoundBar/MacSoundBar-Prefix.pch";
+				INFOPLIST_FILE = "MacSoundBar/MacSoundBar-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D0B969A5137872AF00AB70AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ARC_MIGRATION = precheck;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MacSoundBar/MacSoundBar-Prefix.pch";
+				INFOPLIST_FILE = "MacSoundBar/MacSoundBar-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D0B969A7137872AF00AB70AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MacSoundBar.app/Contents/MacOS/MacSoundBar";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_OBJCPP_ARC_ABI = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MacSoundBarTests/MacSoundBarTests-Prefix.pch";
+				INFOPLIST_FILE = "MacSoundBarTests/MacSoundBarTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		D0B969A8137872AF00AB70AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MacSoundBar.app/Contents/MacOS/MacSoundBar";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_OBJCPP_ARC_ABI = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MacSoundBarTests/MacSoundBarTests-Prefix.pch";
+				INFOPLIST_FILE = "MacSoundBarTests/MacSoundBarTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D04903B513ED756400A227E8 /* Build configuration list for PBXNativeTarget "MacSoundBarHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D04903B313ED756400A227E8 /* Debug */,
+				D04903B413ED756400A227E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0B96968137872AF00AB70AF /* Build configuration list for PBXProject "MacSoundBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0B969A1137872AF00AB70AF /* Debug */,
+				D0B969A2137872AF00AB70AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0B969A3137872AF00AB70AF /* Build configuration list for PBXNativeTarget "MacSoundBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0B969A4137872AF00AB70AF /* Debug */,
+				D0B969A5137872AF00AB70AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0B969A6137872AF00AB70AF /* Build configuration list for PBXNativeTarget "MacSoundBarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0B969A7137872AF00AB70AF /* Debug */,
+				D0B969A8137872AF00AB70AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D0B9698A137872AF00AB70AF /* MacSoundBar.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D0B9698B137872AF00AB70AF /* MacSoundBar.xcdatamodel */,
+			);
+			currentVersion = D0B9698B137872AF00AB70AF /* MacSoundBar.xcdatamodel */;
+			path = MacSoundBar.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D0B96965137872AF00AB70AF /* Project object */;
+}
